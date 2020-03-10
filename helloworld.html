@@ -10,19 +10,22 @@
 <body>
     <h1>Hello world</h1>
     <h2>This is my first cat brooky!</h2>
-    <img src="https://bit.ly/fcc-relaxing-cat"alt="this is a photo of my brooky cat relaxing." style="width:500px;height:600px;">
+    <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat"alt="this is a photo of my brooky cat relaxing." style="width:500px;height:600px;">
     <main>
 
 <a href="http://freecatphotoapp.com">My Cat photos </a>
 
-<p>this is my pet, it a very peacfulcat it loves milk alot, it is a male cat, i love it beacuse its peaceful and it gives me campany most of the times when iam home.
+<p>This is my pet, it a very peacful cat it loves milk alot, it is a male cat, i love it beacuse its peaceful and it gives me campany most of the times when iam home.
     it is called brooky and it feeds after every one hour.</p>
 <p>brooly is an amazing cat and it has alot of unique fatures and characteristics </p>
+<div class="silver-background">
 <p>The things brooky(Cats) love most</p>
+
 <ul><li>milk</li>
     <li>swing its tail</li>
     <li>relax after taking milk</li>
 </ul>
+
 <p>Things brooky the cat hates most</p>
 
 <ol><li>strangers</li>
@@ -30,7 +33,8 @@
     <li>Dirty places </li>
 
 </ol>
-<form>
+</div>
+<form action="/submit-cat-photo" id="cat-photo-form">
         <input type="text" placeholder="cat photo URL" required>
         <button type="submit">Submit</button>
 
@@ -41,7 +45,6 @@
 <input id="lazy" value="lazy" type="checkbox" name="personality">Lazy 
 </label>
   <label for="Energetic"><input id="energetic" value="Energetic" type="checkbox" name="personality"> Energetic</label><br>
-  <input type="text" placeholder="cat photo URL" required>
   <button type="submit">Submit</button>
 </label>                                       
 </form>

@@ -1,0 +1,42 @@
+
+
+body {
+  background-color: rgb(250, 243, 237);
+  font-size: medium;
+  font-family: monospace, sans-serif;
+  padding: 10px;
+  scroll-padding:10px;
+  
+}
+h2 {
+  color: brown;
+  font-family: Lobster;
+  padding-left: -20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-family: monospace;
+  
+}
+
+
+.smaller-image {
+width: 100px;
+}
+
+  .thick-green-border {
+    border: 10px solid green;
+    border-radius: 10px;
+}
+.silver-background {
+  background-color: silver;
+
+}
+#cat-photo-element {background-color: aqua;
+        
+}
